@@ -517,7 +517,7 @@
 
 .crea-hero {
   position: relative;
-  min-height: 460px;
+  min-height: 320px;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -537,6 +537,12 @@
   pointer-events: none;
 }
 
+
+#body-wrapper .container.grid-lg {
+  margin-top: -2rem;
+  padding-top: 0;
+}
+
 header,
 #header,
 .navbar,
@@ -554,7 +560,7 @@ header,
 
 .crea-hero-content {
   max-width: 720px;
-  padding: 5rem 0;
+  padding: 4rem 0 1rem 0;
 }
 
 .crea-hero-eyebrow {
@@ -625,11 +631,11 @@ header,
 
 @media (max-width: 768px) {
   .crea-hero {
-    min-height: 380px;
+    min-height: 260px;
   }
 
   .crea-hero-content {
-    padding: 3.5rem 0;
+    padding: 1.5rem 0 0 0;
   }
 
   .crea-hero-overlay {
